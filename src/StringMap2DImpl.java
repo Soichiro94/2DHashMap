@@ -67,7 +67,7 @@ public class StringMap2DImpl implements StringMap2D {
 
     @Override
     public Iterator<Entry> iterator() {
-        return null;
+        return new EntryIterator();
     }
 
     @Override
